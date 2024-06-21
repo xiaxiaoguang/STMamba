@@ -1,0 +1,9 @@
+pip install einops==0.7.0 mamba-ssm causal-conv1d --upgrade triton torch-geometric
+
+python main.py -dataset=pems04 -model=STGmamba -mamba_features=307
+python embedding.py
+python STGEmbMamba.py
+python STGPE.py
+python seq_mamba.py
+
+d_model * expand / headdim = multiple of 8
