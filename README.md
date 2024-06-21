@@ -35,6 +35,12 @@ bash run2.sh
 bash run3.sh
 ```
 
+```bash
+# seq-Mamba
+$ cd STG-Mamba
+$ python main.py -dataset=pems04 -model=STGmamba -mamba_features=307
+```
+
 
 
 
