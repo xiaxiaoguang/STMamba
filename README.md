@@ -1,5 +1,7 @@
 # Comprehend Mamba in Spatial-Temporal Graph Forecasting task
 
+Detrailed Results of our training is in checkpoints folder, the iMamba 3/6 is the final results of iMamba, because each of them need more epoch(600 comparing to 200) to converge,but because of the high efficiency, its total traning time is similar with Graphmamba/EmbedMamba.
+
 ## Requirements
 - PyTorch==1.11.0
 - Python==3.8.10
